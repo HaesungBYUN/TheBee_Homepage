@@ -1,0 +1,27 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # [중요] index.html 파일 자체에 대한 요청은 무조건 통과 (무한 루프 방지)
+  RewriteRule ^index\.html$ - [L]
+
+  # 1. 존재하지 않는 .php 요청 처리 (기존 규칙 유지 및 보완)
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule \.php$ /index.html [L]
+
+  # 2. 실제 파일이 존재하면 그대로 응답 (이미지, JS, CSS 등)
+  RewriteCond %{REQUEST_FILENAME} -f
+  RewriteRule ^ - [L]
+
+  # 3. [SSG 핵심] /about 같은 요청 시 해당 폴더의 index.html이 있으면 즉시 응답
+  # 이 규칙 덕분에 검색 로봇이 리액트 로딩 없이 완성된 정보를 즉시 수집할 수 있습니다.
+  RewriteCond %{DOCUMENT_ROOT}/$1/index.html -f
+  RewriteRule ^(.*)/?$ $1/index.html [L]
+
+  # 4. 실제 디렉토리가 존재하면 그대로 응답
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # 5. 그 외 모든 요청을 index.html로 보냄 (SPA 하이드레이션 및 예외 처리)
+  RewriteRule ^(.*)$ /index.html [L]
+</IfModule>

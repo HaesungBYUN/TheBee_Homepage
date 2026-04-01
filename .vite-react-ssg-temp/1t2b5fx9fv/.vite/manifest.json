@@ -1,0 +1,51 @@
+{
+  "src/main.tsx": {
+    "file": "main.mjs",
+    "name": "main",
+    "src": "src/main.tsx",
+    "isEntry": true,
+    "assets": [
+      "assets/thebeelogo-BT_Ay7BN.png",
+      "assets/thebeelogo_color-DTzWY2PQ.png",
+      "assets/bee_footer-C7PEHupj.png",
+      "assets/prime_partner-34s24v_J.png",
+      "assets/meeting-F0IIem4Q.png",
+      "assets/lgcns-DVcbI1KW.png",
+      "assets/lgelectronis-DLNHvH_D.png",
+      "assets/lginnotek-BVV-kxZq.png",
+      "assets/lguplus-DOMz2xau.png",
+      "assets/lgensol-BSB7UaKL.png",
+      "assets/lgchem-C0W1QadB.png",
+      "assets/lxsemicon-DZOTgSPZ.png",
+      "assets/hldatastorage-Dla1Wg7o.png",
+      "assets/wooribank-Cx_wtoDd.png",
+      "assets/lxpantos-ChXVH28i.png",
+      "assets/biztechi-CZQ65Y5p.png",
+      "assets/oracle-SMM3u_H9.png",
+      "assets/ibm-ws9t8CRk.png",
+      "assets/sap-DvPQItK6.png",
+      "assets/gsretail-Dnjvpefr.png",
+      "assets/unikorea-UnUs97NB.png",
+      "assets/police-BnIdO_sW.png",
+      "assets/prosecution-CEp_XtLW.png",
+      "assets/talent-BmDURjJl.png",
+      "assets/welfare-5caf2iAQ.png",
+      "assets/recruit-JTiQXVsm.png",
+      "assets/65ace069c3cfaba46adf9b0e117b4b0db0b2e1e5-DNa7TtYS.png",
+      "assets/steps-BNN2lyWn.png",
+      "assets/org_culture-D7jotjZW.png",
+      "assets/bee0d7335ba9c7d1cb6f76e9c25452666693add1-DBdCJvGk.png",
+      "assets/ff2dc884f57040b6d2fe9b9f95fcce46c1b5fe1c-BQ12RcFi.png",
+      "assets/imgbutton_manufacture-CSNgH56L.png",
+      "assets/imgbutton_finance-iNa71lTo.png",
+      "assets/imgbutton_distrubution-DNA97Lpl.png",
+      "assets/imgbutton_telecom-Ev5yKtYU.png",
+      "assets/imgbutton_service-BxwdHg_T.png",
+      "assets/desk-CLfWTf0E.png"
+    ]
+  },
+  "style.css": {
+    "file": "assets/style-DESNpMzl.css",
+    "src": "style.css"
+  }
+}

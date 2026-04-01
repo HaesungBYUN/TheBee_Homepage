@@ -1,18 +1,18 @@
 import { defineConfig } from "vite";
 import tailwindcss from "@tailwindcss/vite";
 import tsconfigPaths from "vite-tsconfig-paths";
-import react from "@vitejs/plugin-react";
+import { reactRouter } from "@react-router/dev/vite";
 import path from "path";
 
 export default defineConfig({
   plugins: [
-    react(),
+    reactRouter(),
     tailwindcss(),
     tsconfigPaths(),
   ],
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src"),
+      "@": path.resolve(__dirname, "./app"),
     },
   },
 
