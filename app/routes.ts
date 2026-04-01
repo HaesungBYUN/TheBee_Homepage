@@ -6,5 +6,6 @@ export default [
     route("about", "pages/About.tsx"),
     route("solutions", "pages/Solutions.tsx"),
     route("careers", "pages/Careers.tsx"),
+    route("*", "pages/NotFoundRedirect.tsx", { id: "not-found" }),
   ]),
 ] satisfies RouteConfig;
