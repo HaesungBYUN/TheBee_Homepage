@@ -413,32 +413,32 @@ export default function About() {
             <div className="content-stretch flex flex-col items-center px-[24px] relative size-full justify-center">
               <div className="content-stretch flex gap-[32px] items-center max-w-[1200px] relative shrink-0 w-full">
                 <button
-                  onClick={() => setActiveTab('intro')}
+                  onClick={() => isMounted && setActiveTab('intro')}
                   className={clsx(
                     "relative shrink-0 cursor-pointer",
-                    activeTab === 'intro' && "border-b-2 border-solid border-white"
+                    isMounted && activeTab === 'intro' && "border-b-2 border-solid border-white"
                   )}
                 >
                   <TabHelper>
                     <div className={clsx(
                       "flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[18px] text-center text-white whitespace-nowrap",
-                      activeTab === 'intro' ? "font-semibold" : "font-normal opacity-70"
+                      isMounted && activeTab === 'intro' ? "font-semibold" : "font-normal opacity-70"
                     )}>
                       <p className="leading-[1.4]">기업소개</p>
                     </div>
                   </TabHelper>
                 </button>
                 <button
-                  onClick={() => setActiveTab('work')}
+                  onClick={() => isMounted && setActiveTab('work')}
                   className={clsx(
                     "relative shrink-0 cursor-pointer",
-                    activeTab === 'work' && "border-b-2 border-solid border-white"
+                    isMounted && activeTab === 'work' && "border-b-2 border-solid border-white"
                   )}
                 >
                   <TabHelper>
                     <div className={clsx(
                       "flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[18px] text-center text-white whitespace-nowrap",
-                      activeTab === 'work' ? "font-semibold" : "font-normal opacity-70"
+                      isMounted && activeTab === 'work' ? "font-semibold" : "font-normal opacity-70"
                     )}>
                       <p className="leading-[1.4]">How We Work</p>
                     </div>
