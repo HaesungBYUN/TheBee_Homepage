@@ -1,0 +1,52 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # 기본 페이지를 index.php로 우선 처리
+    DirectoryIndex index.php
+
+    # HTTPS 강제 전환 (주석 해제 후 사용)
+    RewriteCond %{HTTPS} off
+    RewriteCond %{HTTP:X-Forwarded-Proto} !https
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+    # 기존 React 폴더 방어 및 확장자 숨기기 통합 규칙
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}\.php -f
+    RewriteRule ^(.*)$ $1.php [L]
+
+    # 존재하지 않는 주소(404)로 접속 시 메인 화면으로 리다이렉트 (구글 검색결과 등 예전 주소 방어)
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}/ [L,R=301]
+</IfModule>
+
+<IfModule mod_expires.c>
+    ExpiresActive On
+    
+    # 이미지, CSS, JS 캐싱 설정 (1달)
+    ExpiresByType image/jpg "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/gif "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/webp "access plus 1 month"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType application/x-javascript "access plus 1 month"
+    
+    # 비디오 파일 캐싱 (1달)
+    ExpiresByType video/mp4 "access plus 1 month"
+    ExpiresByType video/webm "access plus 1 month"
+    
+    # 폰트 파일 캐싱 (1년)
+    ExpiresByType font/woff2 "access plus 1 year"
+    ExpiresByType font/woff "access plus 1 year"
+    
+    ExpiresDefault "access plus 2 days"
+</IfModule>
+
+# Gzip 압축 설정
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript application/x-javascript application/json image/svg+xml
+</IfModule>
