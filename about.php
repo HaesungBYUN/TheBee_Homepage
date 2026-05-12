@@ -476,7 +476,7 @@ include 'includes/header.php';
                                             </div>
                                             <div
                                                 class="flex flex-col justify-center relative shrink-0 text-[40px] md:text-[48px]">
-                                                <p class="leading-none">23.7%↑</p>
+                                                <p class="leading-none">23.5%↑</p>
                                             </div>
                                         </div>
                                     </div>
@@ -498,7 +498,7 @@ include 'includes/header.php';
                                                     class="content-stretch flex flex-col items-start opacity-70 relative shrink-0">
                                                     <div
                                                         class="flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-white whitespace-nowrap">
-                                                        <p class="leading-[1.4]">2024 리포트</p>
+                                                        <p class="leading-[1.4]">2025 리포트</p>
                                                     </div>
                                                 </div>
                                                 <div
@@ -514,7 +514,7 @@ include 'includes/header.php';
                                                         class="content-stretch flex flex-col items-start relative shrink-0 w-full">
                                                         <div
                                                             class="flex flex-col font-black justify-center leading-[0] not-italic relative shrink-0 text-[32px] md:text-[40px] text-white w-full">
-                                                            <p class="leading-[40px]">140.2억</p>
+                                                            <p class="leading-[40px]">137.1억</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -543,6 +543,72 @@ include 'includes/header.php';
                                                     class="content-stretch flex flex-col items-start relative shrink-0">
                                                     <div
                                                         class="flex flex-col font-semibold justify-center leading-[0] not-italic relative shrink-0 text-[18px] text-white whitespace-nowrap">
+                                                        <p class="leading-[28px]">신용등급 BB0</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="backdrop-blur-[12px] bg-[rgba(255,255,255,0.5)] sm:flex-1 min-h-px min-w-px relative rounded-[24px] self-stretch h-auto">
+                                    <div aria-hidden="true"
+                                        class="absolute border border-solid border-white inset-0 pointer-events-none rounded-[24px]">
+                                    </div>
+                                    <div
+                                        class="content-stretch flex flex-col items-start gap-[8px] sm:gap-[32px] px-[41px] py-[20px] sm:py-[33px] relative w-full h-full">
+                                        <div class="relative shrink-0">
+                                            <div
+                                                class="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[24px] items-start relative">
+                                                <div
+                                                    class="content-stretch flex flex-col items-start opacity-70 relative shrink-0 w-[175.667px]">
+                                                    <div
+                                                        class="flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-black whitespace-nowrap">
+                                                        <p class="leading-[1.4]">2024 리포트</p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 flex-1 min-w-0">
+                                                    <div
+                                                        class="content-stretch flex flex-col items-start opacity-70 relative shrink-0 w-full">
+                                                        <div
+                                                            class="flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-black w-full">
+                                                            <p class="leading-[1.4]">매출액</p>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="content-stretch flex flex-col items-start relative shrink-0 w-full">
+                                                        <div
+                                                            class="flex flex-col font-black justify-center leading-[0] not-italic relative shrink-0 text-[32px] md:text-[40px] text-black w-full">
+                                                            <p class="leading-[40px]">140.2억</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="relative shrink-0 w-full">
+                                            <div
+                                                class="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex gap-[8px] items-center pt-[8.8px] relative w-full">
+                                                <div class="relative shrink-0 size-[18px]"><svg
+                                                        class="absolute block size-full" fill="none"
+                                                        preserveAspectRatio="none" viewBox="0 0 18 18">
+                                                        <g id="SVG">
+                                                            <path
+                                                                d="M11.6061 9.66699L12.7423 16.0615C12.7551 16.1368 12.7445 16.2142 12.7121 16.2833C12.6796 16.3524 12.6268 16.41 12.5608 16.4483C12.4947 16.4867 12.4186 16.5039 12.3425 16.4978C12.2663 16.4916 12.1939 16.4624 12.1348 16.414L9.44985 14.3987C9.32023 14.3019 9.16277 14.2496 9.00097 14.2496C8.83918 14.2496 8.68172 14.3019 8.5521 14.3987L5.8626 16.4132C5.80359 16.4616 5.73125 16.4908 5.65522 16.4969C5.57919 16.503 5.5031 16.4859 5.4371 16.4476C5.37109 16.4094 5.31831 16.352 5.28579 16.283C5.25327 16.214 5.24256 16.1367 5.2551 16.0615L6.3906 9.66699"
+                                                                id="Vector" stroke="var(--stroke-0, #FF6000)"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="1.5"></path>
+                                                            <path
+                                                                d="M9 10.5C11.4853 10.5 13.5 8.48528 13.5 6C13.5 3.51472 11.4853 1.5 9 1.5C6.51472 1.5 4.5 3.51472 4.5 6C4.5 8.48528 6.51472 10.5 9 10.5Z"
+                                                                id="Vector_2" stroke="var(--stroke-0, #FF6000)"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="1.5"></path>
+                                                        </g>
+                                                    </svg></div>
+                                                <div
+                                                    class="content-stretch flex flex-col items-start relative shrink-0">
+                                                    <div
+                                                        class="flex flex-col font-semibold justify-center leading-[0] not-italic relative shrink-0 text-[18px] text-black whitespace-nowrap">
                                                         <p class="leading-[28px]">신용등급 BB0</p>
                                                     </div>
                                                 </div>
@@ -610,72 +676,6 @@ include 'includes/header.php';
                                                     <div
                                                         class="flex flex-col font-semibold justify-center leading-[0] not-italic relative shrink-0 text-[18px] text-black whitespace-nowrap">
                                                         <p class="leading-[28px]">신용등급 BBB-</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class="backdrop-blur-[12px] bg-[rgba(255,255,255,0.5)] sm:flex-1 min-h-px min-w-px relative rounded-[24px] self-stretch h-auto">
-                                    <div aria-hidden="true"
-                                        class="absolute border border-solid border-white inset-0 pointer-events-none rounded-[24px]">
-                                    </div>
-                                    <div
-                                        class="content-stretch flex flex-col items-start gap-[8px] sm:gap-[32px] px-[41px] py-[20px] sm:py-[33px] relative w-full h-full">
-                                        <div class="relative shrink-0">
-                                            <div
-                                                class="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[24px] items-start relative">
-                                                <div
-                                                    class="content-stretch flex flex-col items-start opacity-70 relative shrink-0 w-[175.667px]">
-                                                    <div
-                                                        class="flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-black whitespace-nowrap">
-                                                        <p class="leading-[1.4]">2022 리포트</p>
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 flex-1 min-w-0">
-                                                    <div
-                                                        class="content-stretch flex flex-col items-start opacity-70 relative shrink-0 w-full">
-                                                        <div
-                                                            class="flex flex-col font-normal justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-black w-full">
-                                                            <p class="leading-[1.4]">매출액</p>
-                                                        </div>
-                                                    </div>
-                                                    <div
-                                                        class="content-stretch flex flex-col items-start relative shrink-0 w-full">
-                                                        <div
-                                                            class="flex flex-col font-black justify-center leading-[0] not-italic relative shrink-0 text-[32px] md:text-[40px] text-black w-full">
-                                                            <p class="leading-[40px]">102.8억</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="relative shrink-0 w-full">
-                                            <div
-                                                class="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex gap-[8px] items-center pt-[8.8px] relative w-full">
-                                                <div class="relative shrink-0 size-[18px]"><svg
-                                                        class="absolute block size-full" fill="none"
-                                                        preserveAspectRatio="none" viewBox="0 0 18 18">
-                                                        <g id="SVG">
-                                                            <path
-                                                                d="M11.6061 9.66699L12.7423 16.0615C12.7551 16.1368 12.7445 16.2142 12.7121 16.2833C12.6796 16.3524 12.6268 16.41 12.5608 16.4483C12.4947 16.4867 12.4186 16.5039 12.3425 16.4978C12.2663 16.4916 12.1939 16.4624 12.1348 16.414L9.44985 14.3987C9.32023 14.3019 9.16277 14.2496 9.00097 14.2496C8.83918 14.2496 8.68172 14.3019 8.5521 14.3987L5.8626 16.4132C5.80359 16.4616 5.73125 16.4908 5.65522 16.4969C5.57919 16.503 5.5031 16.4859 5.4371 16.4476C5.37109 16.4094 5.31831 16.352 5.28579 16.283C5.25327 16.214 5.24256 16.1367 5.2551 16.0615L6.3906 9.66699"
-                                                                id="Vector" stroke="var(--stroke-0, #FF6000)"
-                                                                stroke-linecap="round" stroke-linejoin="round"
-                                                                stroke-width="1.5"></path>
-                                                            <path
-                                                                d="M9 10.5C11.4853 10.5 13.5 8.48528 13.5 6C13.5 3.51472 11.4853 1.5 9 1.5C6.51472 1.5 4.5 3.51472 4.5 6C4.5 8.48528 6.51472 10.5 9 10.5Z"
-                                                                id="Vector_2" stroke="var(--stroke-0, #FF6000)"
-                                                                stroke-linecap="round" stroke-linejoin="round"
-                                                                stroke-width="1.5"></path>
-                                                        </g>
-                                                    </svg></div>
-                                                <div
-                                                    class="content-stretch flex flex-col items-start relative shrink-0">
-                                                    <div
-                                                        class="flex flex-col font-semibold justify-center leading-[0] not-italic relative shrink-0 text-[18px] text-black whitespace-nowrap">
-                                                        <p class="leading-[28px]">신용등급 BB+</p>
                                                     </div>
                                                 </div>
                                             </div>
